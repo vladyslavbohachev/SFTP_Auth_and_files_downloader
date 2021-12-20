@@ -1,4 +1,4 @@
-# SFTP Auth and files downloader
+# SFTP authentication and files downloader
 Using SSH paramiko to auth on an SFTP Server without any security certificate to download, filter and delete files.   
 
 ```python
@@ -62,7 +62,7 @@ sftp.close()
 ssh.close()
 ```
 
-# Authentications methods
+# Authentication methods
 username and password
 private-key not supported
 
@@ -75,4 +75,4 @@ filter files
 
 # Usage 
 
-$root> python main.py
+> $root> python main.py
