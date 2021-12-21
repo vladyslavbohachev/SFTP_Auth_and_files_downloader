@@ -52,7 +52,7 @@ data = []
 ```
 catch the data on the server to an array and filter it with some creteria that you need.  
 with the block ```python sftp.get ``` you can download the date form the server to your local folder.  
-With ``python sftp.remove ``` you delete the data on the server. 
+With ```python sftp.remove ``` you delete the data on the server. 
 
 As last thing that you dont have to forget ist to close the connection to the server.
 
